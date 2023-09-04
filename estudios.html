@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Estilos-->
+    <link rel="stylesheet" href="assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css" />
+    <link rel="stylesheet" href="assets/fonts/poppins/poppins.css" />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/scroll.css" />
+    <link rel="stylesheet" href="assets/css/styles.css"/>
+    
+
+    <title>Portafolio - Miguel</title>
+</head>
+<body>
+    <div id="particles-js"></div>
+
+    <!--Layout principal-->
+    <div class="layout">
+
+        <!--Barra lateral(info usuario)-->
+        <aside class="layout__aside">
+
+            <section class="aside__user-info">
+
+                <!--Información general usuario-->
+                <div class="user-info__general">
+                    <div class="user-info__container-image">
+                        <img src="assets/img/mig.png" class="user-info__image" alt="foto de perfil de usuario" />
+                        <!--aqui la sombra-->
+                    </div>
+
+                    <h2 class="user-info__name">Miguel Angel Campos Galan</h2>
+                    <h4 class="user-info__job">Web Developer and Junior Java Programmer</h4>
+                </div>
+                <!--Menu de navegación-->
+                 <nav class="layout__menu">
+                    <ul class="menu__list">
+
+                        <li class="menu__option">
+                            <a href="index.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-house"></i>
+                                <span class="menu__overlay">Home</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="sobre-mi.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-user"></i>
+                                <span class="menu__overlay">About me</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="estudios.html" class="menu__link menu__link--active">
+                                <i class="menu__icon fa-solid fa-graduation-cap"></i>
+                                <span class="menu__overlay">Studies</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="portafolio.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-briefcase"></i>
+                                <span class="menu__overlay">Portfolio</span>
+                            </a>
+                        </li>
+
+                       <!-- <li class="menu__option">
+                            <a href="blog.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-book"></i>
+                                <span class="menu__overlay">Blog</span>
+                            </a>
+                        </li>--> 
+
+                        <li class="menu__option">
+                            <a href="contacto.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-envelope"></i>
+                                <span class="menu__overlay">Contact</span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </nav>
+                <!--Links a redes sociales-->
+                <div class="user-info__links">
+                    <ul class="links__social">
+                        <li class="social__option">
+                            <a href="https://www.linkedin.com/in/miguel-c-g" class="social__link">
+                                <i class="social__icon fa-brands fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li class="social__option">
+                            <a href="https://github.com/Miguel2786" class="social__link">
+                                <i class="social__icon fa-brands fa-github"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!--Botón del curriculum-->
+              <!--  <div class="user-info__buttons">
+                    <a href="#" class="user-info__btn">Descargar CV</a>
+                </div> --> 
+                <!--Pie de página-->
+                <footer class="user-info__footer">
+                    &copy; 2023 Miguel Angel Campos Galan WEB
+                </footer>
+            </section>
+
+        </aside>
+        <!--Contenido principal-->
+        <main class="layout__content">
+
+            <section class="content__page content__about">
+                <!--ESTE CONTENIDO CAMBIA EN CADA PAGINA DEL SITIO WEB-->
+                <header class="about__header">
+                    <h2 class="about__title">Studies</h2>
+                </header>
+                
+                <section class="about__services">
+                    
+
+                    <div class="services__container">
+                        
+                        <article class="services__service">
+                            <div class="service__icon">
+                                <i class="service__real-icon fa-solid fa-code"></i>
+                            </div>
+
+                            <div class="service__content  studies__apartado">
+                                <h4 class="service__title">Programming</h4>
+                                <img src="assets/img/core_logo.png"  alt="CORE" width="100"/>
+                                <p class="service__description">
+                                    
+                                    Web application development course with PHP and MYSQL (ORACLE) in Core Networks Seville, duration 80 hours (2023).
+                                </p>
+                                <p class="service__description">
+                                    
+                                    Programming course JAVA application development in Core Networks Seville: Spring, Java, MySQL, Docker, Git, GitHub, HTML, CSS, STS and Bootstrap, duration: 190 hours (2023).
+                                </p>
+                                <p class="service__description">
+                                    
+                                    Java SE 8 (Oracle) programming course at Core Networks Seville, duration: 160 hours (2022). 
+                                </p>
+                                <p class="service__description">
+                                    
+                                    Object-oriented programming course (Oracle) at Core Networks Seville, duration: 80 hours (2022).   
+                                </p>
+                            </div>
+                        </article>
+
+                        <article class="services__service">
+                            <div class="service__icon">
+                                <i class="service__real-icon fa-solid fa-chalkboard-user"></i>
+                            </div>
+
+                            <div class="service__content studies__apartado">
+                                <h4 class="service__title">Economy</h4>
+                                
+                                <img src="assets/img/logo_ucam_blanco_c.png" alt="UCAM"  width="150"/>
+                                <p class="service__description">
+                                    Own Master's Degree in General Business Management MBA at University Catholic San Antonio de Murcia UCAM (2016). 
+                                </p>
+                                <img src="assets/img/us_logo.png"  alt="UNI" width="150"/>
+                                <p class="service__description">
+                                    Graduate in Finance and Accounting at the University of Seville (2014).
+                                </p>
+                            </div>
+                        </article>
+
+                       
+                    </div>
+                </section>
+
+              
+
+            </section>
+
+        </main>
+    </div>
+    <script src="assets/js/particles.min.js"></script>
+	<script src="assets/js/particlesjs-config.json"></script>
+</body>
+</html>

@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Estilos-->
+    <link rel="stylesheet" href="assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css" />
+    <link rel="stylesheet" href="assets/fonts/poppins/poppins.css" />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/scroll.css" />
+    <link rel="stylesheet" href="assets/css/styles.css"/>
+    
+
+    <title>Portafolio - Miguel</title>
+</head>
+<body>
+    <div id="particles-js"></div>
+
+    <!--Layout principal-->
+    <div class="layout">
+
+        <!--Barra lateral(info usuario)-->
+        <aside class="layout__aside">
+
+            <section class="aside__user-info">
+
+                <!--Información general usuario-->
+                <div class="user-info__general">
+                    <div class="user-info__container-image">
+                        <img src="assets/img/mig.png" class="user-info__image" alt="foto de perfil de usuario" />
+                        <!--aqui la sombra-->
+                    </div>
+
+                    <h2 class="user-info__name">Miguel Angel Campos Galan</h2>
+                    <h4 class="user-info__job">Web Developer and Junior Java Programmer</h4>
+                </div>
+                <!--Menu de navegación-->
+                 <nav class="layout__menu">
+                    <ul class="menu__list">
+
+                        <li class="menu__option">
+                            <a href="index.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-house"></i>
+                                <span class="menu__overlay">Home</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="sobre-mi.html" class="menu__link menu__link--active">
+                                <i class="menu__icon fa-solid fa-user"></i>
+                                <span class="menu__overlay">About me</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="estudios.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-graduation-cap"></i>
+                                <span class="menu__overlay">Studies</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="portafolio.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-briefcase"></i>
+                                <span class="menu__overlay">Portfolio</span>
+                            </a>
+                        </li>
+
+                       <!-- <li class="menu__option">
+                            <a href="blog.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-book"></i>
+                                <span class="menu__overlay">Blog</span>
+                            </a>
+                        </li>--> 
+
+                        <li class="menu__option">
+                            <a href="contacto.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-envelope"></i>
+                                <span class="menu__overlay">Contact</span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </nav>
+                <!--Links a redes sociales-->
+                <div class="user-info__links">
+                    <ul class="links__social">
+                        <li class="social__option">
+                            <a href="https://www.linkedin.com/in/miguel-c-g" class="social__link">
+                                <i class="social__icon fa-brands fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li class="social__option">
+                            <a href="https://github.com/Miguel2786" class="social__link">
+                                <i class="social__icon fa-brands fa-github"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!--Botón del curriculum-->
+              <!--  <div class="user-info__buttons">
+                    <a href="#" class="user-info__btn">Descargar CV</a>
+                </div> --> 
+                <!--Pie de página-->
+                <footer class="user-info__footer">
+                    &copy; 2023 Miguel Angel Campos Galan WEB
+                </footer>
+            </section>
+
+        </aside>
+        <!--Contenido principal-->
+        <main class="layout__content">
+
+            <section class="content__page content__about">
+                <!--ESTE CONTENIDO CAMBIA EN CADA PAGINA DEL SITIO WEB-->
+                <header class="about__header">
+                    <h2 class="about__title"> About <span class="title__color">Me</span></h2>
+                </header>
+                <section class="about__personal-info">
+                    <article class="personal-info__bio">
+                        <ul class="personal-info__description">
+                            
+                                <li> 💬 Ask me about Java, Spring , HTML, CSS and MySQL.</li>
+                                <li> 🌱 I’m currently learning Javascript, Angular and Python.</li>
+                        </ul>
+                    </article>
+
+                    <!--<div class="personal-info__data">
+                        <ul class="personal-info__list">
+                            
+                            <li class="personal-info__option">
+                                <span class="personal-info__title">Pais</span>
+                                <span class="personal-info__value">España</span>
+                            </li>
+                            <li class="personal-info__option">
+                                <span class="personal-info__title">Correo</span>
+                                <span class="personal-info__value">miguelangelcamposgalan@gmail.com</span>
+                            </li>
+                            <li class="personal-info__option">
+                                <span class="personal-info__title">Tlf</span>
+                                <span class="personal-info__value">615 49 62 78</span>
+                            </li>
+                        </ul>
+                    </div>-->
+                </section>
+
+                <section class="about__services">
+                    <header class="services__header">
+                        <h3 class="services__title">
+                            Languages and  <span class="title__color">Tools</span>
+                        </h3>
+                    </header>
+
+                    <div class="services__container">
+                        
+                        <article class="services__service">
+                            <div class="service__icon">
+                                <i class="service__real-icon fa-solid fa-code"></i>
+                            </div>
+
+                            <div class="service__content">
+                                <h4 class="service__title">Programming</h4>
+                                <div class="icons__language">
+                                    
+                                    <img src="https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/java/java-original.svg" title="Java" alt="JAVA" width="40" height="40"/>&nbsp;
+                                    <img src="https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/spring/spring-original.svg" title="Spring" alt="Spring" width="40" height="40"/>&nbsp;  
+                                    <img src="https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/html5/html5-original.svg" title="HTML5" alt="HTML" width="40" height="40"/>&nbsp;
+                                    <img src="https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/css3/css3-plain-wordmark.svg"  title="CSS3" alt="CSS" width="40" height="40"/>&nbsp;
+                                    <img src="https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/bootstrap/bootstrap-plain.svg" title="Bootstrap" alt="Bootstrap" width="40" height="40"/>&nbsp; 
+                                    <img src="https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/mysql/mysql-original-wordmark.svg" title="MySQL"  alt="MySQL" width="60" height="80"/>&nbsp;
+                                    <img src="https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/git/git-original-wordmark.svg" title="Git" alt="Git" width="60" height="80"/>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="services__service">
+                            <div class="service__icon">
+                                <i class="service__real-icon fa-solid fa-chalkboard-user"></i>
+                            </div>
+
+                            <div class="service__content">
+                                <h4 class="service__title">Certificates</h4>
+                                <!--<p class="service__description">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore molestias, voluptas neque necessitatibus perspiciatis, dolore temporibus officiis sint veritatis maxime officia impedit unde voluptate aliquid, dolorem distinctio vitae qui eos.
+                                </p>-->
+                                <div class="icons__language">
+                                <img src="https://images.credly.com/size/680x680/images/a9848abf-f8bd-474d-a9b4-6086da11a916/Oracle_Associates_Badge__1_.png" title="Oca" alt="OCA" width="80" height="80"/>
+                                </div>
+                            </div>
+                        </article>
+
+                       
+                    </div>
+                </section>
+
+              
+
+            </section>
+
+        </main>
+    </div>
+    <script src="assets/js/particles.min.js"></script>
+	<script src="assets/js/particlesjs-config.json"></script>
+</body>
+</html>
