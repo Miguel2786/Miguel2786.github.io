@@ -47,7 +47,7 @@ body{
     background-image: url("../img/fondo6.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    /*background-position: -20px -120px; me*/
+    background-position: -20px -120px;
 }
 
 /*ESTRUCTURA PRINCIPAL*/
