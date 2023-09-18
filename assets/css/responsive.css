@@ -39,7 +39,7 @@
 @media (max-width:1060px){
     body{
         background-image: none;
-        position: static;
+        position: fixed;
     }
 
     .layout{
